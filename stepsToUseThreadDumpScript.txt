@@ -1,0 +1,12 @@
+jps -l  or jps (Get the requiered process ID)
+$ bash ./threadDump.sh 307980 5 4s
+./threadDump.sh --> File Name
+106550 --> PID
+4 --> Number of files we need
+1s --> file generation Gap
+
+------------VisualVm-------------
+download visualvm : https://visualvm.github.io/download.html
+go to bin folder and execute ./visualvm in terminal
+-->can obtain thread dump
+-->can obtain heap dump
